@@ -3,4 +3,4 @@ def gcd(a,b):
             if a%y==0 and b%y==0:
                 print("GCD is:",y)
                 break
-gcd(int(input("Enter first number:")),int(input("Enter secon
+gcd(int(input("Enter first number:")),int(input("Enter second number:")))
