@@ -18,12 +18,24 @@ def square_root(number):
            print(mid)
            break
         elif mid*mid<number:
-           low=mid+0.0001
+           low=mid+0.000001    
         else:
-           high=mid-0.0001  
+           high=mid-0.000001  
      else:
         print("square root is:%.2f"%mid)
-                    
-         
-     
-square_root(-0.04)
+                       
+square_root(float(input("Enter a number:")))
+
+"""
+another method 
+import math
+print(sqrt(float(input("enter a number:"))))
+
+"""
+
+"""
+another method
+x=float(input("Enter a number:")**0.5
+print(x)
+
+"""
